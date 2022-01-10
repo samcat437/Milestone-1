@@ -2,9 +2,8 @@
 This is the main marketing website for the Avon String Quartet. It is designed to introduce the quartet and to lay out the services offered clearly, to be easy to navigate, and simple to submit a quote request. 
 # User Experience
 
-## User Stories
+## Purpose of the Project
 
---- 
 **Who is the user?**
 
 The user of this website is an organiser of events living in the UK or anyone that is interested in knowing more about the quartet. They may be brides, grooms, wedding and event planners, or the public. They have an interest in music, and often more specifically, in classical music. 
@@ -24,9 +23,29 @@ _Example : They land on the ASQ’s webpage after searching their name in Google
 
 By hiring the Avon String Quartet, the user’s event will be enhanced by conservatoire-trained classical musicians who are able to perform a broad repertoire of music and who will work with the user to create a bespoke experience.  It will create lasting memories for the user and impress their guests. 
 
-_Example : The couple are wowed on their wedding day. As they would have arranged, the quartet perform at the ceremony, playing the couple's favourite song while the bride walks down the aisle in addition to thirty minutes of pre-ceremony music, music for signing of the register and exit music, and then performances of different repertoire during cocktail hour and wedding breakfast. The couple remember these moments for the rest of their lives._
+_Example : The couple are wowed on their wedding day. As arranged, the quartet performed at the ceremony, playing the couple's favourite song while the bride walks down the aisle in addition to thirty minutes of pre-ceremony music, music for signing of the register and exit music, and then performances of different repertoire during cocktail hour and wedding breakfast. The couple remember these moments for the rest of their lives._
 
-**How does the website achieve this?**
+## User Stories
+
+### Home Page
+
+1. As a visiting user, I would like to be welcomed to the site.
+2. As a visiting user, I would like to see a video of the group performing. 
+3. As a visiting user, I would like to read about the quartet. 
+4. As a visiting user, I would like to navigate towards other pages of their website. 
+5. As a visiting user, I would like to have a link to their social media. 
+
+### Videos Page
+
+1. As a visiting user, I would like to view videos of their previous work. 
+
+### Enquiry Form 
+
+1. As a visiting user, I would like to contact the group for business enquires. 
+2. As a visiting user, I would like to receive feedback that my form had been received.
+3. As a visiting user, I would like to be informed when I will receive a response.
+
+**How does the website achieve this?** 
 
 #### First Release 
 
@@ -44,8 +63,6 @@ _Example : The couple are wowed on their wedding day. As they would have arrange
 * Short audio clips next to repertoire - **Third release**
 
 ## Design
-
----
 
 **Colour Scheme**
 
