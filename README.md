@@ -1,108 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Avon String Quartet Website
+This is the main marketing website for the Avon String Quartet. It is designed to introduce the quartet and to lay out the services provided clearly, to be easy to navigate, and simple to submit a quote request. 
+# User Experience
 
-Welcome USER_NAME,
+## User Stories
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+--- 
+**Who is the user?**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The user of this website is an organiser of events living in the UK or anyone that is interested in the quartet. They may be brides, grooms, wedding and event planners, or the public. They have an interest in music, and often more specifically, in classical music. 
 
-## Gitpod Reminders
+_Example : Amanda and Paul are getting married at Hensol Castle near Cardiff in August 2022 and are browsing the web for an appropriate group for their event. They found the Avon String Quartet on Facebook and have looked them up online._
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**What does the user want?**
 
-`python3 -m http.server`
+The user wants to hire a string quartet for their event quickly and easily within their budget. When first visiting the site, they want to envision the event and the specific moments that the string quartet would enhance. They want to be able to see prices/packages on the site and make an enquiry. They may make multiple visits to the site while looking at competitors.
 
-A blue button should appear to click: _Make Public_,
+* On the first visit, the user would like to see the promotional material for the group. 
+* On future visits, they would like to see more content and perhaps even submit an enquiry.
 
-Another blue button should appear to click: _Open Browser_.
+_Example : They land on the ASQ’s webpage after searching their name in Google and are captured by the hero image video. They navigate to the **Wedding > Prices and Packages** section and can see that it is within their budget. They then navigate to the enquiry section, where after filling it out they get feedback that the ASQ will be in touch with them within 24 hours to further discuss their booking._
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**What is the benefit of the product?**
 
-A blue button should appear to click: _Make Public_,
+By hiring the Avon String Quartet, the user’s event will be enhanced by conservatoire-trained classical musicians who are able to perform a broad repertoire of music and who will work with the user to create a bespoke experience.  It will create lasting memories for the user and impress their guests. 
 
-Another blue button should appear to click: _Open Browser_.
+_Example : The couple are wowed on their wedding day. As they would have arranged, the quartet perform at the ceremony, playing the couple's favourite song while the bride walks down the aisle in addition to thirty minutes of pre-ceremony music, music for signing of the register and exit music, and then performances of different repertoire during cocktail hour and wedding breakfast. They remember these moments for the rest of their lives._
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**How does the website achieve this?**
 
-To log into the Heroku toolbelt CLI:
+#### First Release 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Attractive presentation of promotional material, to include an About section on the home screen **First release**
+* Presentation of base pricing for performance packages offered **First release**
+* Form submission to submit an enquiry for a booking, with at least one button per page linking to this form **First release**
+* Presentation of repertoire list **First release**
+* Link to social media **First release** 
+* Frequenty Asked Questions page so that the user can have every possible questions answered while on the site **First release**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Future Releases
 
-------
+* Following a user's initial enquiry, a follow-up form to note their musical preferences and requests based on the user’s event type **Second release**
+* Link and creation of blog **Third release**
+* Short audio clips next to repertoire **Third release**
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Design
 
 ---
 
-Happy coding!
+**Colour Scheme**
+
+Colours in the website will enhance the colours in the promotional video and the photos taken of the quartet.
+
+**Typography** 
+
+Lato sourced from Google Fonts is used to create a modern look. Sans-serif is the fallback option.
+
+**Images and videos**
+
+Images evoking a positive emotional respones are essential to the site. The photos and videos from our session at Miskin Manor will be used so that users can envision their wedding day with the attractive quartet in the corner of the room poised to create magic. There are 11 videos in total. They are dispersed across the site so that music is a central theme, but with the majority concentrated on the videos page.
+
+## Wireframes
+
+---
+
+Home Page Wireframe - ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Weddings Page Wireframe - 
+
+Repertoire Page Wireframe - 
+
+Videos Page Wireframe - 
+
+Frequently Asked Questions Page Wireframe - 
+
+Enquiry Form Page Wireframe - 
