@@ -14,9 +14,6 @@ _Example : Amanda and Paul are getting married at Hensol Castle near Cardiff in 
 
 The user wants to hire a string quartet for their event quickly and easily within their budget. When first visiting the site, they want to envision the event and the specific moments that the string quartet would enhance. They want to be able to see prices/packages on the site and make an enquiry. They may make multiple visits to the site while looking at competitors.
 
-* On the first visit, the user would like to see the promotional material for the group. 
-* On future visits, they would like to see more content and perhaps even submit an enquiry.
-
 _Example : They land on the ASQ’s webpage after searching their name in Google and are captured by the hero image video. They navigate to the **Wedding > Prices and Packages** section and can see that the group's services are within their budget. They then navigate to the enquiry section, where after filling it out they get feedback that the ASQ will be in touch with them within 24 hours to further discuss their booking._
 
 **What is the benefit of the product?**
@@ -30,16 +27,17 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 ### Home Page
 
 1. As a visiting user, I would like to be welcomed to the site.
-2. As a visiting user, I would like to see a video of the group performing. 
+2. As a visiting user, I would like to watch a video of the group performing. 
 3. As a visiting user, I would like to read about the quartet. 
 4. As a visiting user, I would like to navigate towards other pages of their website. 
-5. As a visiting user, I would like to have a link to their social media. 
+5. As a visiting user, I would like access to the group's social media. 
 
-### Videos Page
+### Weddings Page
 
-1. As a visiting user, I would like to view videos of their previous work. 
+1. As a visiting user, I would like to view more content from the group performing wedding repertoire.
+2. As a visiting user, I would like to read information about the group's prices and packages offered.
 
-### Enquiry Form 
+### Contact Page 
 
 1. As a visiting user, I would like to contact the group for business enquires. 
 2. As a visiting user, I would like to receive feedback that my form had been received.
