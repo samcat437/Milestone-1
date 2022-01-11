@@ -43,7 +43,51 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 2. As a visiting user, I would like to receive feedback that my form had been received.
 3. As a visiting user, I would like to be informed when I will receive a response.
 
-**How does the website achieve this?** 
+## Features
+
+### Navbar 
+1. Navbar will be at the top of all pages.
+2. Navbar will have the following options: 
+    * Home
+    * Weddings
+    * Contact Us
+3. Clicking on the relevant navigation option will redirect the user to that page.
+4. Navbar will be sticky.
+5. Navbar on desktop will have the logo and the name to the left and then the options on flush right.
+6. The logo will take the user back to the Home page once clicked.
+7. Navbar on mobile devices will have the name of the group center, the logo on flush left, and the navigation options in a hamburger icon flush right.
+    * Once the hamburger is clicked, the navigation options will appear. 
+
+### About Us Section
+1. Located below the hero image on the home page.
+2. This section will feature a video of the quartet performing to draw interest to the user.
+    * The video will be default muted.
+3. Next to the video there will be a button to link the user to the video section of the website for further listening.
+4. There will be descriptive text to the right of the video giving background on the group and providing an overview of the website's mission.
+5. There will be a button to link to the contact page to submit an enquiry.
+6. On mobile devices, the text will appear below the hero image, then video, and finally the "more video" button and the "request a quote" button.
+
+### Footer
+1. Footer will be located on the bottom of all pages.
+2. Footer will have four sections: 
+    * Contact information
+    * Privacy and Copy Right
+    * Quick Links to other pages of the website
+    * Social Media
+3. On mobile devices, the footer will only display social media links. 
+
+### Wedding Prices and Packages
+1. On the Weddings page, there will be a video to draw the user's attention.
+    * The video will be default muted.
+2. There will be text to introduce the section. 
+3. The prices and packages offered will be presented below. 
+4. Each package will have font awesome icons for visual interest.
+5. There will be a button to link the user to the contact form.
+
+
+
+
+
 
 #### First Release 
 
