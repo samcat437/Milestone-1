@@ -27,7 +27,7 @@ header {
     }
   }
 
-  .list-group-item {
+  .list-group-item, a {
       border: none;
       text-decoration: none;
   }
@@ -48,13 +48,23 @@ header {
   }
 
   @media screen and (max-width: 540px) {
-    footer {
+    footer .social-container {
+        width: 75%;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .footer-desktop {
         display: none;
-        
+    }
+
+    .social-outer h6 {
+        display: flex;
+        justify-content: center;
     }
   }
 
-  .social {
+  .social-outer {
       display: block;
   }
 
@@ -63,7 +73,7 @@ header {
       align-items: center;
       justify-content: space-between;
       height: 20vh;
-      /* margin-right: 33%; */
+      margin-right: 25%;
   }
 
 
