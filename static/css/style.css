@@ -17,7 +17,11 @@ header {
 @media screen and (min-width: 540px) {
     .middle {
         display: none;
-        width: 100%;
+
+    }
+
+    .right-mobile {
+        display: none;
     }
   }
 
@@ -25,6 +29,11 @@ header {
     .left {
         display: none;
     }
+
+    .right {
+       display: none; 
+    }
+
   }
 
   .list-group-item, a {
@@ -33,9 +42,10 @@ header {
   }
 
   /*------------------------------------------------------footer*/
- footer {
-     margin: 0 5%;
- } 
+  
+footer {
+     padding: 0 5%;
+ }
   
   
   footer ul, li {
@@ -52,6 +62,7 @@ header {
         width: 75%;
         margin: 0;
         justify-content: space-between;
+        margin: 0 auto;
     }
 
     .footer-desktop {
@@ -59,8 +70,7 @@ header {
     }
 
     .social-outer h6 {
-        display: flex;
-        justify-content: center;
+        display: none;
     }
   }
 
