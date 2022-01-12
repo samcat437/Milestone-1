@@ -21,10 +21,50 @@ header {
     }
   }
 
-  .list-group-item {
-      border: none;
+  @media screen and (max-width: 540px) {
+    .left {
+        display: none;
+    }
   }
 
+  .list-group-item {
+      border: none;
+      text-decoration: none;
+  }
+
+  /*------------------------------------------------------footer*/
+ footer {
+     margin: 0 5%;
+ } 
+  
+  
+  footer ul, li {
+      list-style-type: none;
+      padding: 0;
+  }
+
+  footer i {
+      padding-right: 5px;
+  }
+
+  @media screen and (max-width: 540px) {
+    footer {
+        display: none;
+        
+    }
+  }
+
+  .social {
+      display: block;
+  }
+
+  .social-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 20vh;
+      /* margin-right: 33%; */
+  }
 
 
 
