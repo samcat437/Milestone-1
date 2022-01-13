@@ -11,15 +11,15 @@
 <body>
   <!-- Mobile nav -->
     <header class="d-block d-sm-none">
-        <nav class="container-fluid navbar navbar-light bg-light fixed-top d-flex flex-row flex-fill">
+        <nav class="container-fluid navbar navbar-light bg-light fixed-top d-flex flex-row justify-content-between">
           <div>
             <!-- Place holder font awesome icon -->
             <a class="navbar-brand" href="#">
               <i class="fas fa-water d-sm-inline"></i>
             </a>
           </div>
-          <!-- Mobile title -->
-          <div class="flex-grow-1"> The Avon String Quartet</div>
+          <!-- Mobile title need to center the span -->
+          <div class="flex-grow-1"><span>The Avon String Quartet</span></div>
           <!--Hamburger mobile-->
           <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -73,8 +73,8 @@
 
     </section>
     <!-- Mobile footer -->
-    <div class="container fixed-bottom d-block d-sm-none">
-      <footer class="py-3 my-4">
+    <footer class="container fixed-bottom d-block d-sm-none">
+      <div class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item">
             <a href="#"><i class="fab fa-facebook fa-2x px-3"></i></a>
@@ -87,60 +87,64 @@
           </li>
         </ul>
         <p class="text-center text-muted">© The Avon String Quartet, 2022.</p>
-      </footer>
-    </div>
-    <!-- Desktop footer-->
-    <div class="container fixed-bottom d-none d-sm-block">
-      <footer>
-        <div class="row">
-          <div class="col-sm-3">
-            <h5>Contact Us</h5>
-            <ul class="flex-column list-unstyled">
-              <li class="mb-2 text-muted"><i class="fas fa-phone pe-2"></i>Phone: +447792091467</li>
-              <li class="mb-2 text-muted"><i class="fas fa-envelope-open-text pe-2"></i>Email: avonstringquartet@gmail.com</li>
-              <!-- Make Links-->
-              <li class="mb-2 text-muted"><i class="fab fa-facebook-messenger pe-2"></i>Facebook Messenger</li>
-              <li class="mb-2 text-muted"><i class="fab fa-instagram pe-2"></i>Instagram Messenger</li>
-            </ul>
-          </div>
-          <div class="col-sm-2">
-            <h5>Privacy</h5>
-            <ul class="flex-column list- list-unstyled">
-              <li class="nav-item mb-2 text-muted">
-                <a href="#" class="nav-link p-0">Privacy Policy</a></li>
-              <li class="nav-item mb-2 text-muted ">
-                <a href="#" class="nav-link p-0">Copyright Information</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-2">
-            <h5>Quick Links</h5>
-            <ul class="flex-column list-unstyled">
-              <li class="nav-item mb-2 text-muted">
-                <a href="#" class="nav-link p-0">Wedding Packages</a>
-              </li>
-              <li class="nav-item mb-2 text-muted">
-                <a href="#" class="nav-link p-0">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      <div class="d-flex justify-content-between py-4 my-4 border-top">
-        <p class="text-muted">© The Avon String Quartet, 2022.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="nav-item ms-3">
-            <a href="#"><i class="fab fa-facebook fa-2x px-3"></i></a>
-          </li>
-          <li class="nav-item ms-3">
-            <a href="#"><i class="fab fa-instagram fa-2x px-3"></i></a>
-          </li>
-          <li class="nav-item ms-3">
-            <a href="#"><i class="fab fa-youtube fa-2x px-3"></i></a>
-          </li>
-        </ul>
       </div>
-      </footer>
-    </div>
+    </footer>
+    <!-- Desktop footer, margin tweak needed-->
+    <footer class="container fixed-bottom d-none d-sm-block">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="d-sm-flex">
+                    <div class="flex-sm-flex-fill pe-4">
+                        <h5>Contact Us</h5>
+                        <ul class="flex-column list-unstyled">
+                            <li class="mb-2 text-muted"><i class="fas fa-phone pe-2"></i>Phone: +447792091467</li>
+                            <li class="mb-2 text-muted"><i class="fas fa-envelope-open-text pe-2"></i>Email: avonstringquartet@gmail.com</li>
+                            <!-- Make Links-->
+                            <li class="mb-2 text-muted"><i class="fab fa-facebook-messenger pe-2"></i>Facebook Messenger</li>
+                            <li class="mb-2 text-muted"><i class="fab fa-instagram pe-2"></i>Instagram Messenger</li>
+                        </ul>
+                    </div>
+                    <div class="flex-sm-flex-fill pe-4">
+                        <h5>Privacy</h5>
+                        <ul class="flex-column list- list-unstyled">
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link p-0">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link p-0">Copyright Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-sm-flex-fill pe-4">
+                        <h5>Quick Links</h5>
+                        <ul class="flex-column list-unstyled">
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link p-0">Wedding Packages</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link p-0">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p class="text-muted">© The Avon String Quartet, 2022.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="nav-item ms-3">
+                        <a href="#"><i class="fab fa-facebook fa-2x px-3"></i></a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a href="#"><i class="fab fa-instagram fa-2x px-3"></i></a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a href="#"><i class="fab fa-youtube fa-2x px-3"></i></a>
+                    </li>
+                </ul>
+            </div>
+        
+    </footer>
     
       
 
