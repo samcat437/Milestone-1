@@ -79,3 +79,25 @@
 /*-----------------------------------------------------Weddings Mobile About*/
 
 /*-----------------------------------------------------Weddings Desktop About*/
+
+/*-----------------------------------------------------Contact Mobile Banner*/
+
+.contact-mobile-banner {
+    background-image: url(../images/cello-small.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------------Contact Mobile Banner*/
+
+.contact-desktop-banner {
+    background-image: url(../images/cello-big.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200vh;
+    margin: 0 auto;
+}

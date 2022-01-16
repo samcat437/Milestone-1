@@ -10,7 +10,7 @@
     <title>The Avon String Quartet</title>
 </head>
 <body>
-  <!-- Mobile nav -->
+  <!--Mobile nav-->
     <header class="d-block d-sm-none">
         <nav class="container-fluid navbar navbar-light bg-light fixed-top d-flex flex-row justify-content-between">
           <div>
@@ -40,7 +40,7 @@
             </div>
           </nav>
     </header>
-    <!-- Desktop Nav -->
+    <!--Desktop Nav-->
     <header class="d-none d-sm-inline">
         <nav class="navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
@@ -67,11 +67,151 @@
             </div>
           </nav>
     </header>
-    <section>
-
+    <!--Mobile Contact Banner-->
+    <section class="container-fluid contact-mobile-banner d-block d-sm-none">  
+      <div class="row">
+        <div class="col-12">
+          <h1>Contact</h1>
+        </div>
+      </div>
     </section>
-    <section>
-
+    <!--Desktop Contact Banner-->
+    <section class="container-fluid row contact-desktop-banner d-none d-sm-block">  
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Contact</h1>
+        </div>
+      </div>
+    </section>
+    <!--Mobile Form-->
+    <section class="container-fluid d-block d-sm-none">
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <p>Please complete the following form so that we are able to reach you. We aim to be in touch with a quote as soon as possible. 
+              If you have not heard from us with in one day, please check your spam folder or give us a call on +441234567890.
+              Quotes are always free of charge and obligation.</p>
+            <div class="mb-3">
+              <label for="first-name" class="form-label">First Name:</label>
+              <input type="first-name" class="form-control" id="first-name" aria-describedby="first-nameHelp">
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="form-label">Last Name:</label>
+              <input type="last-name" class="form-control" id="last-name" aria-describedby="last-nameHelp">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="tel" class="form-label">Contact Telephone:</label>
+              <input type="tel" class="form-control" id="tel">
+            </div>
+            <div class="mb-3">
+              <label for="date">Event Date:</label>
+              <input type="date" id="date" name="event-date" value="dd/mm/yyyy" min="2022-01-24" max="2035-01-01">
+            </div>
+            <div class="mb-3">
+              <label for="venue-name" class="form-label">Venue Name:</label>
+              <input type="venue-name" class="form-control" id="venue-name" aria-describedby="venue-nameHelp">
+            </div>
+            <div class="mb-3">
+              <label for="venue-postcode" class="form-label">Venue Postcode:</label>
+              <input type="venue-postcode" class="form-control" id="venue-postcode" aria-describedby="last-nameHelp">
+            </div>
+            <p>Please choose what you are most interested in. We will automatically quote you for all three so you have options.</p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="ceremonyRadio" id="ceremonyRadio">
+              <label class="form-check-label" for="ceremonyRadio">
+                Wedding Ceremony Only
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="ceremony-receptionRadio" id="ceremony-receptionRadio">
+              <label class="form-check-label" for="ceremony-receptionRadio">
+                Wedding Ceremony and Cocktail Hour/Reception
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="ceremony-reception-breakfastRadio" id="ceremony-reception-breakfastRadio">
+              <label class="form-check-label" for="ceremony-reception-breakfastRadio">
+                Wedding Ceremony, Cocktail Hour/Reception and Wedding Breakfast
+              </label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Anything else? Let us know here." id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Comments</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--Desktop Form-->
+    <section class="container-fluid d-none d-sm-block">
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <p>Please complete the following form so that we are able to reach you. We aim to be in touch with a quote as soon as possible. 
+              If you have not heard from us with in one day, please check your spam folder or give us a call on +441234567890.
+              Quotes are always free of charge and obligation.</p>
+            <div class="mb-3">
+              <label for="first-name" class="form-label">First Name:</label>
+              <input type="first-name" class="form-control" id="first-name" aria-describedby="first-nameHelp">
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="form-label">Last Name:</label>
+              <input type="last-name" class="form-control" id="last-name" aria-describedby="last-nameHelp">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="tel" class="form-label">Contact Telephone:</label>
+              <input type="tel" class="form-control" id="tel">
+            </div>
+            <div class="mb-3">
+              <label for="date">Event Date:</label>
+              <input type="date" id="date" name="event-date" value="dd/mm/yyyy" min="2022-01-24" max="2035-01-01">
+            </div>
+            <div class="mb-3">
+              <label for="venue-name" class="form-label">Venue Name:</label>
+              <input type="venue-name" class="form-control" id="venue-name" aria-describedby="venue-nameHelp">
+            </div>
+            <div class="mb-3">
+              <label for="venue-postcode" class="form-label">Venue Postcode:</label>
+              <input type="venue-postcode" class="form-control" id="venue-postcode" aria-describedby="last-nameHelp">
+            </div>
+            <p>Please choose what you are most interested in. We will automatically quote you for all three so you have options.</p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="ceremonyRadio" id="ceremonyRadio">
+              <label class="form-check-label" for="ceremonyRadio">
+                Wedding Ceremony Only
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="ceremony-receptionRadio" id="ceremony-receptionRadio">
+              <label class="form-check-label" for="ceremony-receptionRadio">
+                Wedding Ceremony and Cocktail Hour/Reception
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="ceremony-reception-breakfastRadio" id="ceremony-reception-breakfastRadio">
+              <label class="form-check-label" for="ceremony-reception-breakfastRadio">
+                Wedding Ceremony, Cocktail Hour/Reception and Wedding Breakfast
+              </label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Anything else? Let us know here." id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Comments</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
     </section>
     <!-- Mobile footer -->
     <footer class="container fixed-bottom d-block d-sm-none">
@@ -146,10 +286,6 @@
             </div>
         
     </footer>
-    
-      
-
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
