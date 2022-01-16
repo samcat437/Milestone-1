@@ -1,91 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap|Allura:300,400,500,700');
 
-/*----------------------------------------------------Navbar*/
+/*-----------------------------------------------------Navbar*/
 
-body {
-    overflow: hidden;
-    
+
+/*-----------------------------------------------------Footer*/
+  
+/*-----------------------------------------------------Mobile Banner*/
+
+ body {
+    padding-top: 50px;
 }
 
-header {
-    margin: 0;
-    display: inline;
-    
+.mobile-banner {
+    background-image: url(../images/mobile-banner-medium.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    margin: 0 auto;
 }
 
+/*-----------------------------------------------------Mobile Banner*/
 
-@media screen and (min-width: 540px) {
-    .middle {
-        display: none;
-
-    }
-
-    .right-mobile {
-        display: none;
-    }
-  }
-
-  @media screen and (max-width: 540px) {
-    .left {
-        display: none;
-    }
-
-    .right {
-       display: none; 
-    }
-
-  }
-
-  .list-group-item, a {
-      border: none;
-      text-decoration: none;
-  }
-
-  /*------------------------------------------------------footer*/
-  
-footer {
-     padding: 0 5%;
- }
-  
-  
-  footer ul, li {
-      list-style-type: none;
-      padding: 0;
-  }
-
-  footer i {
-      padding-right: 5px;
-  }
-
-  @media screen and (max-width: 540px) {
-    footer .social-container {
-        width: 75%;
-        margin: 0;
-        justify-content: space-between;
-        margin: 0 auto;
-    }
-
-    .footer-desktop {
-        display: none;
-    }
-
-    .social-outer h6 {
-        display: none;
-    }
-  }
-
-  .social-outer {
-      display: block;
-  }
-
-  .social-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 20vh;
-      margin-right: 25%;
-  }
-
-
-
-  
+.desktop-banner {
+    background-image: url(../images/desktop-banner-smaller.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200vh;
+    margin: 0 auto;
+}
