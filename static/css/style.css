@@ -2,7 +2,6 @@
 
 /*-----------------------------------------------------Navbar*/
 
-
 /*-----------------------------------------------------Footer*/
   
 /*-----------------------------------------------------Mobile Banner*/
@@ -16,11 +15,11 @@
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 100vh;
+    min-height: 400px;
     margin: 0 auto;
 }
 
-/*-----------------------------------------------------Mobile Banner*/
+/*-----------------------------------------------------Desktop Banner*/
 
 .desktop-banner {
     background-image: url(../images/desktop-banner-smaller.jpg);
@@ -29,4 +28,22 @@
     background-size: contain;
     min-height: 200vh;
     margin: 0 auto;
+}
+
+.banner-title {
+    color: white;
+    text-align: center;
+}
+
+/*-----------------------------------------------------Mobile About*/
+
+.mobile-about, .desktop-about {
+    text-align: center;
+    padding-bottom: 33vh;
+}
+
+/*-----------------------------------------------------Desktop About*/
+
+.about-text {
+    text-align: start;
 }
