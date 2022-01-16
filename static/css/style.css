@@ -35,6 +35,7 @@
     text-align: center;
 }
 
+
 /*-----------------------------------------------------Mobile About*/
 
 .mobile-about, .desktop-about {
@@ -47,3 +48,25 @@
 .about-text {
     text-align: start;
 }
+
+.desktop-about h2 {
+    text-align: start;
+}
+
+/*-----------------------------------------------------Weddings Mobile Banner*/
+
+.weddings-mobile-banner {
+    background-image: url(../images/weddings-banner.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/*-----------------------------------------------------Weddings Desktop Banner*/
+
+/*-----------------------------------------------------Weddings Mobile About*/
+
+/*-----------------------------------------------------Weddings Desktop About*/
