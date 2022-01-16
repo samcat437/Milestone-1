@@ -67,6 +67,15 @@
 
 /*-----------------------------------------------------Weddings Desktop Banner*/
 
+.weddings-desktop-banner {
+    background-image: url(../images/weddings-banner-desktop-edited.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200vh;
+    margin: 0 auto;
+}
+
 /*-----------------------------------------------------Weddings Mobile About*/
 
 /*-----------------------------------------------------Weddings Desktop About*/
