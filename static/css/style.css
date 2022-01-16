@@ -4,6 +4,7 @@
 
 /*-----------------------------------------------------Footer*/
   
+
 /*-----------------------------------------------------Mobile Banner*/
 
  body {
@@ -33,6 +34,7 @@
 .banner-title {
     color: white;
     text-align: center;
+
 }
 
 
@@ -91,9 +93,31 @@
     margin: 0 auto;
 }
 
-/*-----------------------------------------------------Contact Mobile Banner*/
+/*-----------------------------------------------------Contact Desktop Banner*/
 
 .contact-desktop-banner {
+    background-image: url(../images/cello-big.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------------Form Submission Mobile Banner*/
+/*-----------add a overlay*/
+.mobile-form-submission {
+    background-image: url(../images/cello-small.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200vh;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------------Form Submission Desktop Banner*/
+/*-----------add a overlay*/
+.desktop-form-submission {
     background-image: url(../images/cello-big.jpg);
     background-position: left top;
     background-repeat: no-repeat;
