@@ -67,15 +67,12 @@
             </div>
           </nav>
     </header>
-    <!--Mobile Banner, not sure if containers are necessary-->
-    <section class="container-fluid mobile-banner d-block d-sm-none">  
-      <div class="row">
-        <div class="col-12">
-        </div>
-      </div>
+    <!--Mobile Banner-->
+    <section class="d-block mobile-banner d-sm-none">
+      <img class="img-fluid" src="static/images/mobile-banner-medium.jpg" alt="quartet">
     </section>
     <!--Desktop Banner-->
-    <section class="container-fluid row desktop-banner d-none d-sm-block">  
+    <section class="container-fluid desktop-banner d-none d-sm-block">  
       <div class="row">
         <div class="col-sm-4 banner-title">
           <h1>The Avon String Quartet</h1>
@@ -87,12 +84,12 @@
     <section class="container-fluid mobile-about d-block d-sm-none">
       <div class="row">
         <div class="col-12">
-          <h2>The Avon String Quartet</h2>
-          <h3>We are conservatoire-trained musicians eager to help you have your fairytale moment.</h3>
-          <p>The Avon String Quartet members have played together over 4 years at wedding and event venues around the country. All members are conservatoire graduates. The Avon String Quartet is based in South Wales and the South West.</p>
+          <h2 class="mb-4">The Avon String Quartet</h2>
+          <h3 class="mb-4">We are conservatoire-trained musicians eager to help you have your fairytale moment.</h3>
+          <p class="mb-4">The Avon String Quartet members have played together over 4 years at wedding and event venues around the country. All members are conservatoire graduates. The Avon String Quartet is based in South Wales and the South West.</p>
         </div>
       </div>
-      <iframe width="100%" height="315px" src="https://www.youtube.com/embed/8bvjRDVBiWI?autoplay=1&mute=1">
+      <iframe class="mb-4" width="100%" height="315px" src="https://www.youtube.com/embed/8bvjRDVBiWI?autoplay=1&mute=1">
       </iframe>
       <div class="row">
         <div class="col-6">
@@ -104,20 +101,19 @@
       </div>     
     </section>
     <!-- Desktop About -->
-    <section class="container-fluid desktop-about d-none d-sm-block">
+    <section class="container desktop-about d-none d-sm-block mb-sm-5">
+      <h1 class="mb-sm-5">About</h1>
       <div class="row">
         <div class="col-sm-6">
-          <h2>About</h2>
-          <iframe width="420" height="315" src="https://www.youtube.com/embed/8bvjRDVBiWI?autoplay=1&mute=1">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/8bvjRDVBiWI?autoplay=1&mute=1">
           </iframe>
         </div>
         <div class="col-sm-6 about-text">
-          <h2>We are conservatoire-trained musicians eager to help you have your fairytale moment.</h2>
-          <p>The Avon String Quartet members have played together over 4 years at wedding and event venues around the country. All members are conservatoire graduates. The Avon String Quartet is based in South Wales and the South West.</p>
-          <button type="button" class="btn btn-primary"><a href="#"></a>More Videos</button>
+          <h2 class="mb-sm-4">We are conservatoire-trained musicians eager to help you have your fairytale moment.</h2>
+          <p class="mb-sm-4">The Avon String Quartet members have played together over 4 years at wedding and event venues around the country. All members are conservatoire graduates. The Avon String Quartet is based in South Wales and the South West.</p>
+          <button type="button" class="btn btn-primary me-sm-4"><a href="#"></a>More Videos</button>
           <button type="button" class="btn btn-primary"><a href="#"></a>Request a free quote</button>
         </div>
-      </div>
     </section>
     <!-- Mobile footer -->
     <footer class="container d-block d-sm-none">
@@ -137,7 +133,7 @@
       </div>
     </footer>
     <!-- Desktop footer, margin tweak needed-->
-    <footer class="container fixed-sm-bottom d-none d-sm-block mt-sm-auto">
+    <footer class="container fixed-sm-bottom d-none d-sm-block mt-sm-5">
         <div class="row">
             <div class="col-sm-9">
                 <div class="d-sm-flex">
@@ -190,7 +186,6 @@
                     </li>
                 </ul>
             </div>
-        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

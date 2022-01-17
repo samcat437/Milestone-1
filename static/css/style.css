@@ -11,24 +11,15 @@
     padding-top: 50px;
 }
 
-.mobile-banner {
-    background-image: url(../images/mobile-banner-medium.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 400px;
-    margin: 0 auto;
-}
 
 /*-----------------------------------------------------Desktop Banner*/
 
 .desktop-banner {
     background-image: url(../images/desktop-banner-smaller.jpg);
     background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200vh;
-    margin: 0 auto;
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .banner-title {
@@ -37,12 +28,11 @@
 
 }
 
-
 /*-----------------------------------------------------Mobile About*/
 
 .mobile-about, .desktop-about {
     text-align: center;
-    padding-bottom: 33vh;
+    padding-bottom: 0;
 }
 
 /*-----------------------------------------------------Desktop About*/
@@ -51,31 +41,21 @@
     text-align: start;
 }
 
-.desktop-about h2 {
+.desktop-about h1 {
     text-align: start;
 }
 
 /*-----------------------------------------------------Weddings Mobile Banner*/
-
-.weddings-mobile-banner {
-    background-image: url(../images/weddings-banner.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 50px;
-}
 
 /*-----------------------------------------------------Weddings Desktop Banner*/
 
 .weddings-desktop-banner {
     background-image: url(../images/weddings-banner-desktop-edited.jpg);
     background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200vh;
-    margin: 0 auto;
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
 }
 
 /*-----------------------------------------------------Weddings Mobile About*/
@@ -84,44 +64,32 @@
 
 /*-----------------------------------------------------Contact Mobile Banner*/
 
-.contact-mobile-banner {
-    background-image: url(../images/cello-small.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 100vh;
-    margin: 0 auto;
-}
+
 
 /*-----------------------------------------------------Contact Desktop Banner*/
 
 .contact-desktop-banner {
     background-image: url(../images/cello-big.jpg);
     background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
     min-height: 100vh;
-    margin: 0 auto;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 /*-----------------------------------------------------Form Submission Mobile Banner*/
 /*-----------add a overlay*/
-.mobile-form-submission {
-    background-image: url(../images/cello-small.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200vh;
-    margin: 0 auto;
-}
+
 
 /*-----------------------------------------------------Form Submission Desktop Banner*/
 /*-----------add a overlay*/
 .desktop-form-submission {
     background-image: url(../images/cello-big.jpg);
     background-position: left top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200vh;
-    margin: 0 auto;
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.desktop-form-submissions p {
+    color: white;
 }

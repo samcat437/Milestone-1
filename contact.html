@@ -68,12 +68,8 @@
           </nav>
     </header>
     <!--Mobile Contact Banner-->
-    <section class="container-fluid contact-mobile-banner d-block d-sm-none">  
-      <div class="row">
-        <div class="col-12">
-          <h1>Contact</h1>
-        </div>
-      </div>
+    <section class="contact-mobile-banner d-block d-sm-none">  
+      <img class="img-fluid" src="static/images/cello-small.jpg" alt="cello">
     </section>
     <!--Desktop Contact Banner-->
     <section class="container-fluid row contact-desktop-banner d-none d-sm-block">  
@@ -87,10 +83,11 @@
     <section class="container-fluid d-block d-sm-none">
       <div class="row">
         <div class="col-12">
+          <h1>Contact</h1>
+          <p>Please complete the following form so that we are able to reach you. We aim to be in touch with a quote as soon as possible. 
+            If you have not heard from us with in one day, please check your spam folder or give us a call on +441234567890.
+            Quotes are always free of charge and obligation.</p>
           <form>
-            <p>Please complete the following form so that we are able to reach you. We aim to be in touch with a quote as soon as possible. 
-              If you have not heard from us with in one day, please check your spam folder or give us a call on +441234567890.
-              Quotes are always free of charge and obligation.</p>
             <div class="mb-3">
               <label for="first-name" class="form-label">First Name:</label>
               <input type="first-name" class="form-control" id="first-name" aria-describedby="first-nameHelp">
@@ -149,7 +146,7 @@
       </div>
     </section>
     <!--Desktop Form-->
-    <section class="container-fluid d-none d-sm-block">
+    <section class="container d-none d-sm-block mb-sm-5">
       <div class="row">
         <div class="col-12">
           <form>
@@ -186,23 +183,25 @@
               <input type="venue-postcode" class="form-control" id="venue-postcode" aria-describedby="last-nameHelp">
             </div>
             <p>Please choose what you are most interested in. We will automatically quote you for all three so you have options.</p>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="ceremonyRadio" id="ceremonyRadio">
-              <label class="form-check-label" for="ceremonyRadio">
-                Wedding Ceremony Only
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="ceremony-receptionRadio" id="ceremony-receptionRadio">
-              <label class="form-check-label" for="ceremony-receptionRadio">
-                Wedding Ceremony and Cocktail Hour/Reception
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="ceremony-reception-breakfastRadio" id="ceremony-reception-breakfastRadio">
-              <label class="form-check-label" for="ceremony-reception-breakfastRadio">
-                Wedding Ceremony, Cocktail Hour/Reception and Wedding Breakfast
-              </label>
+            <div class="row">
+              <div class="form-check col-sm-4 ps-sm-1">
+                <input class="form-check-input" type="radio" name="ceremonyRadio" id="ceremonyRadio">
+                <label class="form-check-label" for="ceremonyRadio">
+                  Wedding Ceremony Only
+                </label>
+              </div>
+              <div class="form-check col-sm-4"">
+                <input class="form-check-input" type="radio" name="ceremony-receptionRadio" id="ceremony-receptionRadio">
+                <label class="form-check-label" for="ceremony-receptionRadio">
+                  Wedding Ceremony and Cocktail Hour/Reception
+                </label>
+              </div>
+              <div class="form-check col-sm-4">
+                <input class="form-check-input" type="radio" name="ceremony-reception-breakfastRadio" id="ceremony-reception-breakfastRadio">
+                <label class="form-check-label" for="ceremony-reception-breakfastRadio">
+                  Wedding Ceremony, Cocktail Hour/Reception and Wedding Breakfast
+                </label>
+              </div>
             </div>
             <div class="form-floating">
               <textarea class="form-control" placeholder="Anything else? Let us know here." id="floatingTextarea"></textarea>
@@ -231,7 +230,7 @@
       </div>
     </footer>
     <!-- Desktop footer, margin tweak needed-->
-    <footer class="container fixed-sm-bottom d-none d-sm-block">
+    <footer class="container fixed-sm-bottom d-none d-sm-block mt-sm-5">
         <div class="row">
             <div class="col-sm-9">
                 <div class="d-sm-flex">
