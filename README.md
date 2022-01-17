@@ -35,11 +35,10 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 
 ### Home Page
 
-1. As a visiting user, I would like to be welcomed to the site.
-2. As a visiting user, I would like to watch a video of the group performing. 
-3. As a visiting user, I would like to read about the quartet. 
-4. As a visiting user, I would like to navigate towards other pages of their website. 
-5. As a visiting user, I would like access to the group's social media. 
+1. As a visiting user, I would like to watch a video of the group performing. 
+2. As a visiting user, I would like to read about the quartet. 
+3. As a visiting user, I would like to navigate towards other pages of their website. 
+4. As a visiting user, I would like access to the group's social media. 
 
 ### Weddings Page
 
@@ -50,7 +49,6 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 
 1. As a visiting user, I would like to contact the group for business enquires. 
 2. As a visiting user, I would like to receive feedback that my form had been received.
-3. As a visiting user, I would like to be informed when I will receive a response.
 
 ## Features
 
@@ -98,7 +96,7 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 7. The page will have the Navbar and Footer elements.
 
 ### Contact Us 
-1. The Contact Us Page will feature a hero iamage. 
+1. The Contact Us Page will feature a hero image. 
 2. At the head of the form, there will be a text regarding current response times.
 3. The Contact form will have the following input elements :  
     * Full Name - broken into first and last name inputs with required attributes.
