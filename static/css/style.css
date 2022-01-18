@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap|Allura:300,400,500,700');
 
+
 /*---Navbar*/
 
 @media only screen and (max-width: 280px) {
@@ -10,14 +11,6 @@
 
 /*------Footer*/
 
-
-/*------Banner Media Queries*/
-
-@media only screen and (min-width: 2500px) {
-    .xxlarge-screen-banner {
-        height: 66vh;
-    }
-}
 
 
 /*-------Home About*/
@@ -30,25 +23,12 @@
     text-align: start;
 }
 
-
-/*------Contact Desktop Banner*/
-
-
-
-/*------Form Submission Mobile Banner*/
-/*-----------add a overlay*/
-
-
-/*-----Form Submission Desktop Banner*/
-/*-----------add a overlay*/
-.desktop-form-submission {
-    background-image: url(../images/cello-big.jpg);
-    background-position: left top;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.desktop-form-submissions p {
-    color: white;
+@media only screen and (min-width: 576px) {
+    .form-sub {
+        background-image: url(../images/cello-big.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        
+    }
 }
