@@ -2,24 +2,25 @@
 
 /*------Navbar*/
 
+
+@media only screen and (max-width: 280px) {
+    .logo {
+          display: none;
+        }
+    }
+
 /*------Footer*/
   
 
-/*------Mobile Banner*/
+/*------Home Small Screen Banner*/
 
- body {
-    padding-top: 50px;
-}
+@media only screen and (min-width: 2500px) {
+    .xxlarge-screen-banner {
+          height: 66vh;
+        }
+    }
 
-/*------Desktop Banner*/
 
-.desktop-banner {
-    background-image: url(../images/desktop-banner-smaller.jpg);
-    background-position: left top;
-    min-height: 100vh;
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
 
 .banner-title {
     color: white;
