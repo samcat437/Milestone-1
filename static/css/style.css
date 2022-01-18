@@ -14,16 +14,11 @@
 /*------Banner Media Queries*/
 
 @media only screen and (min-width: 2500px) {
-    .xxlarge-screen-banner-desktop {
+    .xxlarge-screen-banner {
         height: 66vh;
     }
 }
 
-@media only screen and (min-width: 2500px) {
-    .xxlarge-screen-banner-weddings {
-        height: 66vh;
-    }
-}
 
 /*-------Home About*/
 
@@ -38,13 +33,7 @@
 
 /*------Contact Desktop Banner*/
 
-.contact-desktop-banner {
-    background-image: url(../images/cello-big.jpg);
-    background-position: left top;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 /*------Form Submission Mobile Banner*/
 /*-----------add a overlay*/
