@@ -1,27 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap|Allura:300,400,500,700');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+/*---Fonts*/
+
+body {
+    font-family: Open-Sans, sans-serif;
+    
+}
+
+nav {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    letter-spacing: .2em; 
+
+}
+
+.prices h2 {
+    text-transform: uppercase;
+    letter-spacing: .2em; 
+}
+
+footer h5 {
+    text-transform: uppercase;
+}
+
+footer .nav-item .nav-link {
+    color: rgb(6, 85, 6);
+}
+
+footer .nav-item i {
+    color: rgb(6, 85, 6);
+}
 
 /*---Navbar*/
-
 @media only screen and (max-width: 280px) {
     .logo {
         display: none;
     }
 }
 
-/*------Footer*/
 
+/*------Weddings Page*/
 
-
-/*-------Home About*/
-
-.about-text {
-    text-align: start;
+.prices i {
+    color: palevioletred;
 }
 
-.desktop-about h1 {
-    text-align: start;
-}
 
 /*------Contact Page*/
 @media only screen and (min-width: 576px) { 
@@ -36,6 +63,10 @@
     }
 }
 
+.center-form h6 {
+    font-style: italic;
+    line-height: 150%;
+}
 /*------Form Submission Page*/
 
 @media only screen and (min-width: 768px) {
@@ -47,4 +78,3 @@
         padding: 0;
     }
 }
-
