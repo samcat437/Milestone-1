@@ -1,7 +1,8 @@
 # The Avon String Quartet Website
 This is the main marketing website for the Avon String Quartet. It is designed to introduce the quartet and to lay out the services offered clearly, to be easy to navigate, and simple to submit a quote request. 
 
-Live link - 
+[Live Link]() 
+
 # User Experience
 
 ## Purpose of the Project
@@ -24,7 +25,7 @@ By hiring the Avon String Quartet, the user’s event will be enhanced by conser
 
 _Example : The couple are wowed on their wedding day. As arranged, the quartet performed at the ceremony, playing the couple's favourite song while the bride walks down the aisle in addition to thirty minutes of pre-ceremony music, music for signing of the register and exit music, and then performances of different repertoire during cocktail hour and wedding breakfast. The couple remember these moments for the rest of their lives._
 
-**How will the site acheive this in the first release?**
+**How will the site achieve this in the first release?**
 
 #### First Release 
 
@@ -100,14 +101,14 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 ### Contact Us 
 1. The Contact Us page will feature a hero image. 
 2. At the head of the form, there will be text regarding current response times.
-3. The Contact form will have the following input elements :  
+3. The Contact form will have the following input elements:  
     * Full Name - broken into first and last name inputs with required attributes.
     * Email Address - input with the required attribute. 
     * Contact Number - input as an optional requirement.
     * Event Date - input will open a date picker. 
     * Venue Name / Nearest Town - input with the required attribute. 
     * Venue Postcode - input with the required attribute.
-    * Radio buttons for the following options based on the packages section : 
+    * Radio buttons for the following options based on the packages section: 
         * Wedding Ceremony
         * Wedding Ceremony and Reception
         * Wedding Ceremony, Reception and Wedding Breakfast
@@ -123,7 +124,7 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 #### Future Releases
 
 * Following a user's initial enquiry, a follow-up form to note their musical preferences and requests based on the user’s event type - **Second release**
-* Frequenty Asked Questions page so that the user can have every possible questions answered while on the site - **Second release**
+* Frequently Asked Questions page so that the user can have every possible question answered while on the site - **Second release**
 * A videos page linking to the home screen to showcase the broad range of repertoire offered by the group- **Second release**
 * Presentation of repertoire list - **Second release**
 * Link and creation of blog - **Third release**
@@ -133,7 +134,7 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 
 **Colour Scheme**
 
-Colours in the website will enhance the colours in the promotional video and the photos taken of the quartet.
+Colours used on the website will enhance the colours in the promotional video and the photos taken of the quartet.
 
 **Typography** 
 
@@ -141,7 +142,7 @@ Open Sans sourced from Google Fonts is used to create a modern look. Sans-serif 
 
 **Images and videos**
 
-Images evoking a positive emotional respones are essential to the site's success. The photos and videos from the quartet's photo and recording session at Miskin Manor, located in Cardiff, UK, will be used so that users can envision their wedding day with the attractive quartet in the corner of the room. The quartet recorded 11 videos in total. They will be dispersed across the site so that music is the central theme, but with the majority concentrated on the videos page, which will feature in the second release.
+Images evoking a positive emotional response are essential to the site's success. The photos and videos from the quartet's photo and recording session at Miskin Manor, located in Cardiff, UK, will be used so that users can envision their wedding day with the attractive quartet in the corner of the room. The quartet recorded 11 videos in total. They will be dispersed across the site so that music is the central theme, but with the majority concentrated on the videos page, which will feature in the second release.
 
 ## Wireframes
 
@@ -166,17 +167,17 @@ Contact Us Page Mobile Wireframe - [View](https://github.com/samcat437/Milestone
 
 [Bootstrap 5.1](https://getbootstrap.com/) : Bootstrap 5 was used to organise the layout of the site, add basic styling, provide spacing and build custom elements. 
 
-[Google Fonts](https://fonts.google.com/) : Google Fonts provided Open Sans, in order to customise and stylise the text. 
+[Google Fonts](https://fonts.google.com/) : Google Fonts provided the font "Open Sans" in order to customise and stylise the text. 
 
 [Font Awesome - Free Version](https://fontawesome.com/) : Font Awesome was used to provide the small icons for social media links, visual comprehension of the text for the wedding packages, and as a placeholder for the logo that will be designed to improve the group's branding.
 
-[Git](https://git-scm.com/) : Git is the technology that hosts the Gitpod IDE and terminal where the project was coded. Git then committed and pushed the code to the cloudbased servers on GitHub.
+[Git](https://git-scm.com/) : Git is the technology that hosts the Gitpod IDE and terminal where the project was coded. Git then committed and pushed the code to the cloud-based servers on GitHub.
  
 [GitHub](https://github.com/) : GitHub hosted the project on its servers after being pushed by Git.
 
 [Affinity Photo](https://affinity.serif.com/en-gb/photo/) : The photos were coloured edited and cropped on Affinity Photo.
 
-[Youtube](https://www.youtube.com/) : The final version of the quartet's videos were uploaded and hosted on Youtube.
+[Youtube](https://www.youtube.com/) : The final versions of the quartet's videos were uploaded and hosted on Youtube.
 
 [Balsamiq](https://balsamiq.com/) : Balsamiq was used to create and download wireframes for the project.
 
@@ -187,20 +188,64 @@ Contact Us Page Mobile Wireframe - [View](https://github.com/samcat437/Milestone
 The W3C Markup Validator and W3C CSS Validator Services were used to check each page for syntax errors. 
 
 [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-
-* index.html link here - iframe 100% and 315px incorrect
-wedding.html same as above
-contact.html pass 
-form sub pass 
+The Validator flagged the iframe elements in the index.html and weddings.html pages. They should not have html inline width and heights. This is rectified by targeting the element and styling it on CSS instead. The sections across every page containing the banners were also flagged as not being semantic. I enclosed the images within an h1 element.  
+* [index.html]() 
+* [weddings.html]()
+* [contact.html]()
+* [form-submission.html]() 
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-pass 
+* [style.css]() 
 
-### Test Cases
+### Test Cases based on User Stories
+
+#### Home Page
+
+1. As a visiting user, I would like to watch a video of the group performing. 
+    a. When entering the site's home page, the user scrolls down and will see a video of the group playing. 
+    * [Home About Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Home%20About/Home%20About%20Desktop.png)
+    * [Home About Mobile - 575px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Home%20About/Home%20About%20Mobile%20575px.png)
+
+2. As a visiting user, I would like to read about the quartet. 
+    a. Next to the video is an introduction about the quartet. 
+
+3. As a visiting user, I would like to navigate towards other pages of their website. 
+    a.  At the top of the page, there is a navbar with links towards other webpages on the site. 
+    * [Home Navbar Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Home%20Navbar.png)
+    * [Home Navbar Mobile - 701px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Home%20Mobile%20Navbar%20701px.png)
+
+4. As a visiting user, I would like access to the group's social media. 
+    a. At the bottom of the page in the footer, there are font awesome links to the group's social media presence. 
+    * [Home Desktop Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Footer%20Home%20Desktop.png)
+    * [Home Mobile Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Home%20footer%20mobile%20-%20575px.png) 
+
+#### Weddings Page
+
+1. As a visiting user, I would like to view more content from the group performing wedding repertoire.
+    a. When the user clicks on Weddings in the Navbar or on "Wedding Packages" in "Quick Links" in the footer, the user will see another video under the Weddings page banner. 
+    * [Weddings About Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Weddings%20about%20desktop.png)
+    * [Weddings About Mobile - 575px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Weddings%20about%20mobile%20575px.png)
+
+2. As a visiting user, I would like to read information about the group's prices and packages offered.
+    a. If the user continues to scroll, the will see the group's rates displayed in an organised way.
+    * [Weddings Packages Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/weddings%20packages%20desktop.png)
+    * [Weddings Packages Mobile - 767px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Wedding%20Packages%20mobile%20-%20767%20px.png)
+
+#### Contact Us Page
+
+1. As a visiting user, I would like to contact the group for business enquires. 
+    a. The user will click on the Contact Us tab on the Navbar, on any button that says "Request a Free Quote," or by clicking on "Contact Us" in the "Quick Links" section. 
+    b. They are then able to fill out the contact form. 
+
+2. As a visiting user, I would like to receive feedback that my form had been submitted.
+    a. Once the visit submits the form, they will be redirected to the form-submission.html form which will inform them when they should receive a response. 
+    * [Contact Us redirection to form-submission.html](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20redirection%20to%20Form%20Submission.png)
+
+### Test Cases based on Features 
 
 #### Navbar
 
-* Navbar will be at the top of all pages desktop and mobile, with the three options: Home, Weddings, Contact Us. 
+* Navbar will be at the top of all pages, desktop and mobile versions, with the three options: Home, Weddings, Contact Us. 
 * Navbar on desktop will have the logo and the name to the left and then the options on the right. Navbar on mobile devices will have the name of the group left, the logo on flush left and the navigation options in a hamburger icon flush right.
     * [Home Navbar Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Home%20Navbar.png)
     * [Wedding Navbar Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Weddings%20Navbar.png)
@@ -258,14 +303,14 @@ pass
 ### Contact Us 
 1. The Contact Us page will feature a hero image. 
 2. At the head of the form, there will be text regarding current response times.
-3. The Contact form will have the following input elements :  
+3. The Contact form will have the following input elements:  
     * Full Name - broken into first and last name inputs with required attributes.
     * Email Address - input with the required attribute. 
     * Contact Number - input as an optional requirement.
     * Event Date - input will open a date picker. 
     * Venue Name / Nearest Town - optional input. 
     * Venue Postcode - optional input.
-    * Radio buttons for the following options based on the packages section : 
+    * Radio buttons for the following options based on the packages section: 
         * Wedding Ceremony
         * Wedding Ceremony and Reception
         * Wedding Ceremony, Reception and Wedding Breakfast
@@ -289,10 +334,11 @@ pass
     * [Contact Us redirection to form-submission.html](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20redirection%20to%20Form%20Submission.png)
 
 ### Fixed Bugs 
-1. After the font was changed, text made uppercase and spacing added between the letters, the hamburger icon moved to the next line within the navbar on small screen sizes, 280 px on Chrome Developer Tools. This was rectified by targeting screens with a max-width of 450 px and removing the text-transform and letterspacing styles.
+
+1. After the font was changed, text made uppercase and spacing added between the letters, the hamburger icon moved to the next line within the navbar on small screen sizes - 280px on Chrome Developer Tools. This was rectified by targeting screens with a max-width of 450px and removing the text-transform and letterspacing styles.
     * [Contact Us Navbar Bug](https://github.com/samcat437/Milestone-1/blob/main/docs/bugs/xs%20navbar%20bug.png)
 
-2. The weddings banner is too tall for screen sizes 450 px to 575px. This was rectified by selecting a shorter image and replacing it on line 50 in the img tag in the weddings.html document.
+2. The weddings banner is too tall for screen sizes 450px to 575px. This was rectified by selecting a shorter image and replacing it on line 50 in the img tag in the weddings.html document.
     * [Weddings Mobile Banner Bug](https://github.com/samcat437/Milestone-1/blob/main/docs/bugs/Weddings%20mobile%20banner%20bug.png)
 
 3. On medium screen sizes where the desktop footer displays, the column containing the "Quick Links" and "Privacy" is too narrow. This was visually improved by changing small screen sizes to bootstrap class col-12 rather than col-9.
@@ -302,7 +348,7 @@ pass
 
 * The website will be supported on any HTML 5 supported browsers, Firefox, Safari, Chrome, Opera and Edge. The deployed site has been tested on Firefox, Safari, Chrome and Edge. 
 
-* THe website has been tested on iPad tablet, iPhone XR, Macbook and HP laptop.
+* The website has been tested on iPad tablet, iPhone XR, Macbook and HP laptop.
 
 ## Deployment 
 
@@ -310,13 +356,13 @@ pass
 1. Navigate to the Github repository at [here](https://github.com/samcat437/Milestone-1).
 2. Choose "Settings."
 3. Click on "Pages."
-4. Ensure the main brach and the root directory are selected.
+4. Ensure the main branch and the root directory are selected.
 5. Copy and paste the url into the browser or click on the live [link](https://samcat437.github.io/Milestone-1/).
 
 ### Via Gitpod
 1. Navigate to the Github repository at [here](https://github.com/samcat437/Milestone-1).
 2. Choose "Gitpod."
-3. In the Bash terminal, type: "python3 -m http.server"
+3. In the Bash terminal, type: "python3 -m http.server".
 4. Choose "Make Public" when a blue button appears.
 5. Choose "Open Browser" when the options appears.
 
