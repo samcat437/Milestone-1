@@ -51,13 +51,25 @@ footer .nav-item i {
     }
 }
 
+/*------Home Page and Weddings Page */
+
+.video iframe {
+    width: 100%;
+    height: 325px;
+}
+
 /*------Weddings Page*/
 
 .prices i {
     color: palevioletred;
 }
 
+.prices h2 {
+    text-align: center;
+}
+
 /*------Contact Page*/
+
 @media only screen and (min-width: 576px) { 
     .center-form {
         max-width: 60%;

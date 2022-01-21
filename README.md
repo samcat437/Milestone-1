@@ -1,5 +1,7 @@
 # The Avon String Quartet Website
 This is the main marketing website for the Avon String Quartet. It is designed to introduce the quartet and to lay out the services offered clearly, to be easy to navigate, and simple to submit a quote request. 
+
+Live link - 
 # User Experience
 
 ## Purpose of the Project
@@ -200,30 +202,30 @@ pass
 
 * Navbar will be at the top of all pages desktop and mobile, with the three options: Home, Weddings, Contact Us. 
 * Navbar on desktop will have the logo and the name to the left and then the options on the right. Navbar on mobile devices will have the name of the group left, the logo on flush left and the navigation options in a hamburger icon flush right.
-    * [Home Navbar Desktop]()
-    * [Wedding Navbar Desktop]()
-    * [Contact Us Navbar Desktop]()
+    * [Home Navbar Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Home%20Navbar.png)
+    * [Wedding Navbar Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Weddings%20Navbar.png)
+    * [Contact Us Navbar Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Contact%20Us%20Navbar.png)
 
-    * [Home Navbar Mobile - 701px]()
-    * [Wedding Navbar Mobile - 701px]()
-    * [Contact Us Mobile - 524px]()
-    * [Form Submission Navbar - 575px]()
+    * [Home Navbar Mobile - 701px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Home%20Mobile%20Navbar%20701px.png)
+    * [Wedding Navbar Mobile - 701px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Weddings%20Navbar%20mobile%20expanded.png)
+    * [Contact Us Mobile - 524px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Contact%20Us%20Navbar%20524px.png)
+    * [Form Submission Navbar - 575px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/form-submission%20navbar%20575px.png)
 
 * Navbar will be sticky.
-    * [Home Desktop Sticky Navbar]()
-    * [Home Mobile Sticky Navbar]()
+    * [Home Desktop Sticky Navbar](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/desktop%20sticky%20nav.png)
+    * [Home Mobile Sticky Navbar](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/sticky%20navbar%20mobile%20weddings.png)
 
 #### Footer
 
 * Footer will be located on the bottom of all pages. Footer will have four sections:  Contact Us, Privacy, Quick Links, and Social Media. 
-    * [Home Desktop Footer]()
-    * [Weddings Desktop Footer]()
-    * [Contact Us Desktop Footer]()
+    * [Home Desktop Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Footer%20Home%20Desktop.png)
+    * [Weddings Desktop Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Footer%20Weddings%20Desktop.png)
+    * [Contact Us Desktop Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Footer%20Contact%20Us%20Desktop.png)
 
 * On mobile devices, the footer will only display social media links.
-    * [Home Mobile Footer]() 
-    * [Weddings Mobile Footer]()
-    * [Contact Us Mobile Footer]()
+    * [Home Mobile Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Home%20footer%20mobile%20-%20575px.png) 
+    * [Weddings Mobile Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Weddings%20mobile%20footer%20-%20575px.png)
+    * [Contact Us Mobile Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/contact%20us%20footer%20-%20280px.png)
 
 #### Home Page About 
 
@@ -233,25 +235,25 @@ pass
 3. Next to the video there will be a button to link the user to the video section of the website for further listening, which is inactive at this release.
 4. There will be descriptive text to the right of the video giving background on the group and providing an overview of the website's mission.
 5. There will be a button to link to the contact page to submit an enquiry, titled "Request a Free Quote." 
-    * [Home About Desktop]()
+    * [Home About Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Home%20About/Home%20About%20Desktop.png)
     
 6. On mobile devices, the text will appear below the hero image, then video, and finally the "more videos" button and the "request a quote" button.
-    * [Home About Mobile - 575px]()
+    * [Home About Mobile - 575px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Home%20About/Home%20About%20Mobile%20575px.png)
 
 ### Wedding About and Packages
 1. On the Weddings page, there will be a video to draw the user's attention.
     * The video will be default muted.
 2. There will be text to introduce the section. 
-    * [Weddings About Desktop]()
-    * [Weddings About Mobile - 575px]()
+    * [Weddings About Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Weddings%20about%20desktop.png)
+    * [Weddings About Mobile - 575px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Weddings%20about%20mobile%20575px.png)
 
 3. The prices and packages offered will be presented in the section below. 
 4. Each package will have font awesome icons for visual interest.
 5. There will be a button to link the user to the contact form.
-    * [Weddings Packages Desktop]()
+    * [Weddings Packages Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/weddings%20packages%20desktop.png)
 
 6. On mobile devices, the introduction will be located below the banner image, and the prices and packages displayed below. The "request a free quote" button will be below this.
-    * [Weddings Packages Mobile - 767px]()
+    * [Weddings Packages Mobile - 767px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Wedding%20Packages%20mobile%20-%20767%20px.png)
 
 ### Contact Us 
 1. The Contact Us page will feature a hero image. 
@@ -270,34 +272,37 @@ pass
         * Non-wedding Event 
     * Text field for an additional message.
 4. There will be a submit button at the bottom of the page.
-    * [Contact Us Desktop 1]()
-    * [Contact Us Desktop 2]()
+    * [Contact Us Desktop 1](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20Desktop%201.png)
+    * [Contact Us Desktop 2](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20Desktop%202.png)
 
-    * [Contact Us Mobile 1]()
-    * [Contact Us Mobile 2]()
+    * [Contact Us Mobile 1](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20Mobile%20-%20280%20px%201.png)
+    * [Contact Us Mobile 2](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20Mobile%20-%20280%20px%202.png)
     * [Contact Us Mobile 3]()
 
 5. When the user neglects to enter a required field after submitting the form, they will receive feedback that they have need to enter said field.
-    * [Contact Us Date Feedback]()
-    * [Contact Us Date Picker]()
-    * [Contact Us Email Feedback]()
-    * [Contact Us First and Last Name Feedback]()
+    * [Contact Us Date Feedback](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20Date%20feedback.png)
+    * [Contact Us Date Picker](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20Date%20Picker.png)
+    * [Contact Us Email Feedback](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20Email%20Feedback.png)
+    * [Contact Us First and Last Name Feedback](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20required%20first%20and%20last%20name.png)
 
 6. Upon submitting the form correctly, the user will be redirected to another page displaying a message that their form has been received with an update on current response times.
-    * [Contact Us redirection to form-submission.html]()
+    * [Contact Us redirection to form-submission.html](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20redirection%20to%20Form%20Submission.png)
 
 ### Fixed Bugs 
 1. After the font was changed, text made uppercase and spacing added between the letters, the hamburger icon moved to the next line within the navbar on small screen sizes, 280 px on Chrome Developer Tools. This was rectified by targeting screens with a max-width of 450 px and removing the text-transform and letterspacing styles.
-    * [Contact Us Navbar Bug]()
+    * [Contact Us Navbar Bug](https://github.com/samcat437/Milestone-1/blob/main/docs/bugs/xs%20navbar%20bug.png)
 
 2. The weddings banner is too tall for screen sizes 450 px to 575px. This was rectified by selecting a shorter image and replacing it on line 50 in the img tag in the weddings.html document.
-    * [Weddings Mobile Banner Bug]()
+    * [Weddings Mobile Banner Bug](https://github.com/samcat437/Milestone-1/blob/main/docs/bugs/Weddings%20mobile%20banner%20bug.png)
 
-3. On medium screen sizes where the desktop footer displays, the column containing the "Quick Links" and "Privacy" is too narrow, forcing the two words to wrap. Working on the fix. 
-    * [Quick Links and Privacy Footer Bug]()
+3. On medium screen sizes where the desktop footer displays, the column containing the "Quick Links" and "Privacy" is too narrow. This was visually improved by changing small screen sizes to bootstrap class col-12 rather than col-9.
+    * [Quick Links and Privacy Footer Bug](https://github.com/samcat437/Milestone-1/blob/main/docs/bugs/quick%20links%20bug%20medium%20screen%20size.png)
 
 ### Supported Screens and Browswers 
-The website will be supported on any HTML 5 supported browsers, Firefox, Safari, Chrome, Opera and Edge. The deployed site has been tested on Firefox, Safari, Chrome and Edge. 
+
+* The website will be supported on any HTML 5 supported browsers, Firefox, Safari, Chrome, Opera and Edge. The deployed site has been tested on Firefox, Safari, Chrome and Edge. 
+
+* THe website has been tested on iPad tablet, iPhone XR, Macbook and HP laptop.
 
 ## Deployment 
 
@@ -323,4 +328,5 @@ The website will be supported on any HTML 5 supported browsers, Firefox, Safari,
 * All text content was created by the developer. 
 
 ### Acknowledgements
+
 Massive thanks to the Code Institute mentor for guiding the student through the development process. 
