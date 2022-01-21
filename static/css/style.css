@@ -91,6 +91,7 @@ footer .nav-item i {
 @media only screen and (min-width: 768px) {
     .form-sub {
         background-image: url(../images/cello-big.jpg);
+        background-color: rgb(221, 134, 19);
         background-repeat: no-repeat;
         background-size: cover;
         height: 66vh;

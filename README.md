@@ -1,7 +1,7 @@
 # The Avon String Quartet Website
 This is the main marketing website for the Avon String Quartet. It is designed to introduce the quartet and to lay out the services offered clearly, to be easy to navigate, and simple to submit a quote request. 
 
-[Live Link]() 
+[View the live link here](https://samcat437.github.io/Milestone-1/) 
 
 # User Experience
 
@@ -188,57 +188,58 @@ Contact Us Page Mobile Wireframe - [View](https://github.com/samcat437/Milestone
 The W3C Markup Validator and W3C CSS Validator Services were used to check each page for syntax errors. 
 
 [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-The Validator flagged the iframe elements in the index.html and weddings.html pages. They should not have html inline width and heights. This is rectified by targeting the element and styling it on CSS instead. The sections across every page containing the banners were also flagged as not being semantic. I enclosed the images within an h1 element.  
-* [index.html]() 
-* [weddings.html]()
-* [contact.html]()
-* [form-submission.html]() 
+The Validator flagged the iframe elements in the index.html and weddings.html pages. They should not have html inline width and heights. This is rectified by targeting the element and styling it on CSS instead. The sections across every page containing the banners were also flagged as not being semantic. I enclosed the images within an h1 element.
+  
+* [index.html](https://github.com/samcat437/Milestone-1/blob/main/docs/W3C%20Markup%20Passes/Index.html%20W3C%20pass.png) 
+* [weddings.html](https://github.com/samcat437/Milestone-1/blob/main/docs/W3C%20Markup%20Passes/weddings%20html%20pass.png)
+* [contact.html](https://github.com/samcat437/Milestone-1/blob/main/docs/W3C%20Markup%20Passes/Contact%20W3C%20pass.png)
+* [form-submission.html](https://github.com/samcat437/Milestone-1/blob/main/docs/W3C%20Markup%20Passes/form%20submission%20pass.png) 
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-* [style.css]() 
+* [style.css](https://github.com/samcat437/Milestone-1/blob/main/docs/W3C%20Markup%20Passes/CSS%20validator%20pass.png) 
 
 ### Test Cases based on User Stories
 
 #### Home Page
 
 1. As a visiting user, I would like to watch a video of the group performing. 
-    a. When entering the site's home page, the user scrolls down and will see a video of the group playing. 
+    * When entering the site's home page, the user scrolls down and will see a video of the group playing. 
     * [Home About Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Home%20About/Home%20About%20Desktop.png)
     * [Home About Mobile - 575px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Home%20About/Home%20About%20Mobile%20575px.png)
 
 2. As a visiting user, I would like to read about the quartet. 
-    a. Next to the video is an introduction about the quartet. 
+    * Next to the video is an introduction about the quartet. 
 
 3. As a visiting user, I would like to navigate towards other pages of their website. 
-    a.  At the top of the page, there is a navbar with links towards other webpages on the site. 
+    * At the top of the page, there is a navbar with links towards other webpages on the site. 
     * [Home Navbar Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Home%20Navbar.png)
     * [Home Navbar Mobile - 701px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Navbar/Home%20Mobile%20Navbar%20701px.png)
 
 4. As a visiting user, I would like access to the group's social media. 
-    a. At the bottom of the page in the footer, there are font awesome links to the group's social media presence. 
+    * At the bottom of the page in the footer, there are font awesome links to the group's social media presence. 
     * [Home Desktop Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Footer%20Home%20Desktop.png)
     * [Home Mobile Footer](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Footer/Home%20footer%20mobile%20-%20575px.png) 
 
 #### Weddings Page
 
 1. As a visiting user, I would like to view more content from the group performing wedding repertoire.
-    a. When the user clicks on Weddings in the Navbar or on "Wedding Packages" in "Quick Links" in the footer, the user will see another video under the Weddings page banner. 
+    * When the user clicks on Weddings in the Navbar or on "Wedding Packages" in "Quick Links" in the footer, the user will see another video under the Weddings page banner. 
     * [Weddings About Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Weddings%20about%20desktop.png)
     * [Weddings About Mobile - 575px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Weddings%20about%20mobile%20575px.png)
 
 2. As a visiting user, I would like to read information about the group's prices and packages offered.
-    a. If the user continues to scroll, the will see the group's rates displayed in an organised way.
+    * If the user continues to scroll, the will see the group's rates displayed in an organised way.
     * [Weddings Packages Desktop](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/weddings%20packages%20desktop.png)
     * [Weddings Packages Mobile - 767px](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Weddings%20About%20and%20Packages/Wedding%20Packages%20mobile%20-%20767%20px.png)
 
 #### Contact Us Page
 
 1. As a visiting user, I would like to contact the group for business enquires. 
-    a. The user will click on the Contact Us tab on the Navbar, on any button that says "Request a Free Quote," or by clicking on "Contact Us" in the "Quick Links" section. 
-    b. They are then able to fill out the contact form. 
+    * The user will click on the Contact Us tab on the Navbar, on any button that says "Request a Free Quote," or by clicking on "Contact Us" in the "Quick Links" section. 
+    * They are then able to fill out the contact form. 
 
 2. As a visiting user, I would like to receive feedback that my form had been submitted.
-    a. Once the visit submits the form, they will be redirected to the form-submission.html form which will inform them when they should receive a response. 
+    * Once the visit submits the form, they will be redirected to the form-submission.html form which will inform them when they should receive a response. 
     * [Contact Us redirection to form-submission.html](https://github.com/samcat437/Milestone-1/blob/main/docs/test-screenshots/Contact%20Us/Contact%20Us%20redirection%20to%20Form%20Submission.png)
 
 ### Test Cases based on Features 
@@ -362,7 +363,7 @@ The Validator flagged the iframe elements in the index.html and weddings.html pa
 ### Via Gitpod
 1. Navigate to the Github repository at [here](https://github.com/samcat437/Milestone-1).
 2. Choose "Gitpod."
-3. In the Bash terminal, type: "python3 -m http.server".
+3. In the Bash terminal, type: `python3 -m http.server`
 4. Choose "Make Public" when a blue button appears.
 5. Choose "Open Browser" when the options appears.
 
