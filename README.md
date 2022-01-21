@@ -64,29 +64,28 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 6. The group's name will take the user back to the home page once clicked.
 7. Navbar on mobile devices will have the name of the group left, the logo on flush left and the navigation options in a hamburger icon flush right.
     * Once the hamburger is clicked, the navigation options will appear. 
-8. There will be an effect when the options are hovered over.
+8. When nav options are hovered, the text will darken. 
 
 ### Footer
 1. Footer will be located on the bottom of all pages.
 2. Footer will have four sections: 
     * Contact Us - to include telephone, email, and social media contact methods. 
-    * Privacy - to include the privacy statement and Copy Right Information.
-    * Quick Links to other pages of the website - Weddings Packages and Contact Us
+    * Privacy - to include the privacy statement and copyright Information.
+    * Quick Links to other pages of the website - Weddings Packages and Contact Us.
     * Social Media links
 3. On mobile devices, the footer will only display social media links. 
 
-### About Section
+### Home Page About Section
 1. Located below the hero image on the home page.
 2. This section will feature a video of the quartet performing to draw interest to the user.
     * The video will be default muted.
-3. Next to the video there will be a button to link the user to the video section of the website for further listening.
+3. Next to the video there will be a button to link the user to the video section of the website for further listening, which is inactive at this release.
 4. There will be descriptive text to the right of the video giving background on the group and providing an overview of the website's mission.
 5. There will be a button to link to the contact page to submit an enquiry, titled "request a free quote." 
-6. There will be a button linking to more videos for a future release. 
-7. On mobile devices, the text will appear below the hero image, then video, and finally the "more videos" button and the "request a quote" button.
-8. The page will have the Navbar and Footer elements. 
+6. On mobile devices, the text will appear below the hero image, then video, and finally the "more videos" button and the "request a quote" button.
+7. The page will have the Navbar and Footer elements. 
 
-### Wedding Prices and Packages
+### Wedding About and Packages
 1. On the Weddings page, there will be a video to draw the user's attention.
     * The video will be default muted.
 2. There will be text to introduce the section. 
@@ -97,7 +96,7 @@ _Example : The couple are wowed on their wedding day. As arranged, the quartet p
 7. The page will have the Navbar and Footer elements.
 
 ### Contact Us 
-1. The Contact Us Page will feature a hero image. 
+1. The Contact Us page will feature a hero image. 
 2. At the head of the form, there will be text regarding current response times.
 3. The Contact form will have the following input elements :  
     * Full Name - broken into first and last name inputs with required attributes.
@@ -167,7 +166,7 @@ Contact Us Page Mobile Wireframe - [View](https://github.com/samcat437/Milestone
 
 [Google Fonts](https://fonts.google.com/) : Google Fonts provided Open Sans, in order to customise and stylise the text. 
 
-[Font Awesome Free Version](https://fontawesome.com/) : Font Awesome was used to provide the small icons for social media links, visual comprehension of the text for the wedding packages, and as a placeholder for the logo that will be designed to improve the group's branding.
+[Font Awesome - Free Version](https://fontawesome.com/) : Font Awesome was used to provide the small icons for social media links, visual comprehension of the text for the wedding packages, and as a placeholder for the logo that will be designed to improve the group's branding.
 
 [Git](https://git-scm.com/) : Git is the technology that hosts the Gitpod IDE and terminal where the project was coded. Git then committed and pushed the code to the cloudbased servers on GitHub.
  
@@ -196,3 +195,93 @@ form sub pass
 pass 
 
 ### Test Cases (User Story based with screenshots) 
+
+#### Navbar
+
+* Navbar will be at the top of all pages desktop and mobile, with the three options: Home, Weddings, Contact Us. 
+* Navbar on desktop will have the logo and the name to the left and then the options on the right. Navbar on mobile devices will have the name of the group left, the logo on flush left and the navigation options in a hamburger icon flush right.
+    * [Home Navbar Desktop]()
+    * [Wedding Navbar Desktop]()
+    * [Contact Us Navbar Desktop]()
+
+    * [Home Navbar Mobile - 701px]()
+    * [Wedding Navbar Mobile - 701px]()
+    * [Contact Us Mobile - 524px]()
+    * [Form Submission Navbar - 575px]()
+
+* Navbar will be sticky.
+    * [Home Desktop Sticky Navbar]()
+    * [Home Mobile Sticky Navbar]()
+
+#### Footer
+
+* Footer will be located on the bottom of all pages. Footer will have four sections:  Contact Us, Privacy, Quick Links, and Social Media. 
+    * [Home Desktop Footer]()
+    * [Weddings Desktop Footer]()
+    * [Contact Us Desktop Footer]()
+
+* On mobile devices, the footer will only display social media links.
+    * [Home Mobile Footer]() 
+    * [Weddings Mobile Footer]()
+    * [Contact Us Mobile Footer]()
+
+#### Home Page About 
+
+1. Located below the hero image on the home page.
+2. This section will feature a video of the quartet performing to draw interest to the user.
+    * The video will be default muted.
+3. Next to the video there will be a button to link the user to the video section of the website for further listening, which is inactive at this release.
+4. There will be descriptive text to the right of the video giving background on the group and providing an overview of the website's mission.
+5. There will be a button to link to the contact page to submit an enquiry, titled "Request a Free Quote." 
+    * [Home About Desktop]()
+    
+6. On mobile devices, the text will appear below the hero image, then video, and finally the "more videos" button and the "request a quote" button.
+    * [Home About Mobile - 575px]()
+
+### Wedding About and Packages
+1. On the Weddings page, there will be a video to draw the user's attention.
+    * The video will be default muted.
+2. There will be text to introduce the section. 
+    * [Weddings About Desktop]()
+    * [Weddings About Mobile - 575px]()
+
+3. The prices and packages offered will be presented in the section below. 
+4. Each package will have font awesome icons for visual interest.
+5. There will be a button to link the user to the contact form.
+    * [Weddings Packages Desktop]()
+
+6. On mobile devices, the introduction will be located below the banner image, and the prices and packages displayed below. The "request a free quote" button will be below this.
+    * [Weddings Packages Mobile - 767px]()
+
+### Contact Us 
+1. The Contact Us page will feature a hero image. 
+2. At the head of the form, there will be text regarding current response times.
+3. The Contact form will have the following input elements :  
+    * Full Name - broken into first and last name inputs with required attributes.
+    * Email Address - input with the required attribute. 
+    * Contact Number - input as an optional requirement.
+    * Event Date - input will open a date picker. 
+    * Venue Name / Nearest Town - optional input. 
+    * Venue Postcode - optional input.
+    * Radio buttons for the following options based on the packages section : 
+        * Wedding Ceremony
+        * Wedding Ceremony and Reception
+        * Wedding Ceremony, Reception and Wedding Breakfast
+        * Non-wedding Event 
+    * Text field for an additional message.
+4. There will be a submit button at the bottom of the page.
+    * [Contact Us Desktop 1]()
+    * [Contact Us Desktop 2]()
+    * [Contact Us Mobile 1]()
+    * [Contact Us Mobile 2]()
+    * [Contact Us Mobile 3]()
+
+5. When the user neglects to enter a required field after submitting the form, they will receive feedback that they have need to enter said field.
+    * [Contact Us Date Feedback]()
+    * [Contact Us Date Picker]()
+    * [Contact Us Email Feedback]()
+    * [Contact Us First and Last Name Feedback]()
+
+6. Upon submitting the form correctly, the user will be redirected to another page displaying a message that their form has been received with an update on current response times.
+    * [Contact Us redirection to form-submission.html]()
+    
