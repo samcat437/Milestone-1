@@ -194,7 +194,7 @@ form sub pass
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 pass 
 
-### Test Cases (User Story based with screenshots) 
+### Test Cases
 
 #### Navbar
 
@@ -272,6 +272,7 @@ pass
 4. There will be a submit button at the bottom of the page.
     * [Contact Us Desktop 1]()
     * [Contact Us Desktop 2]()
+
     * [Contact Us Mobile 1]()
     * [Contact Us Mobile 2]()
     * [Contact Us Mobile 3]()
@@ -284,4 +285,42 @@ pass
 
 6. Upon submitting the form correctly, the user will be redirected to another page displaying a message that their form has been received with an update on current response times.
     * [Contact Us redirection to form-submission.html]()
-    
+
+### Fixed Bugs 
+1. After the font was changed, text made uppercase and spacing added between the letters, the hamburger icon moved to the next line within the navbar on small screen sizes, 280 px on Chrome Developer Tools. This was rectified by targeting screens with a max-width of 450 px and removing the text-transform and letterspacing styles.
+    * [Contact Us Navbar Bug]()
+
+2. The weddings banner is too tall for screen sizes 450 px to 575px. This was rectified by selecting a shorter image and replacing it on line 50 in the img tag in the weddings.html document.
+    * [Weddings Mobile Banner Bug]()
+
+3. On medium screen sizes where the desktop footer displays, the column containing the "Quick Links" and "Privacy" is too narrow, forcing the two words to wrap. Working on the fix. 
+    * [Quick Links and Privacy Footer Bug]()
+
+### Supported Screens and Browswers 
+The website will be supported on any HTML 5 supported browsers, Firefox, Safari, Chrome, Opera and Edge. The deployed site has been tested on Firefox, Safari, Chrome and Edge. 
+
+## Deployment 
+
+### Via Github Pages 
+1. Navigate to the Github repository at [here](https://github.com/samcat437/Milestone-1).
+2. Choose "Settings."
+3. Click on "Pages."
+4. Ensure the main brach and the root directory are selected.
+5. Copy and paste the url into the browser or click on the live [link](https://samcat437.github.io/Milestone-1/).
+
+### Via Gitpod
+1. Navigate to the Github repository at [here](https://github.com/samcat437/Milestone-1).
+2. Choose "Gitpod."
+3. In the Bash terminal, type: "python3 -m http.server"
+4. Choose "Make Public" when a blue button appears.
+5. Choose "Open Browser" when the options appears.
+
+## Credits
+
+* [Bootstrap 5](https://getbootstrap.com/) documentation and templates were viewed and then customised to fit the purpose of the site. 
+* [MDN Web Docs](https://developer.mozilla.org/en-US/) was used to ensure code was correctly written.
+* All images and videos used across the site were written by the developer. 
+* All text content was created by the developer. 
+
+### Acknowledgements
+Massive thanks to the Code Institute mentor for guiding the student through the development process. 

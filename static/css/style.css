@@ -12,6 +12,14 @@ nav {
     letter-spacing: .2em;
 }
 
+@media only screen and (max-width: 450px) {
+    nav {
+        letter-spacing: normal;
+        text-transform: none;
+    }
+
+}
+
 .about h1 {
     text-transform: uppercase;
     letter-spacing: .2em; 
@@ -37,7 +45,7 @@ footer .nav-item i {
 
 /*---Navbar*/
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 320px) {
     .logo {
         display: none;
     }
@@ -48,7 +56,6 @@ footer .nav-item i {
 .prices i {
     color: palevioletred;
 }
-
 
 /*------Contact Page*/
 @media only screen and (min-width: 576px) { 
