@@ -56,81 +56,35 @@
   <section class="center-form container-fluid mt-3 mb-sm-5">
     <div class="row">
       <div class="col-12">
-        <h6 class="mb-3">Please complete the following form so that we are able to reach you. We aim to be in touch with
+        <h6 id="form-message" class="mb-3">Please complete the following form so that we are able to reach you. We aim to be in touch with
           a quote as soon
           as possible.
           If you have not heard from us with in one day, please check your spam folder or give us a call on
-          +441234567890.<br>
+          +447792091467.<br>
           <br>
           Quotes are always free of charge and obligation.
         </h6>
         <form action="form-submission.html">
           <div class="row g-3">
             <div class="col-auto mb-3">
-              <label for="first-name" class="form-label">First Name:</label>
+              <label for="first-name" class="form-label">Name:</label>
               <input type="text" class="form-control" id="first-name" aria-describedby="first-name" required>
-            </div>
-            <div class="col-auto mb-3">
-              <label for="last-name" class="form-label">Last Name:</label>
-              <input type="text" class="form-control" id="last-name" aria-describedby="last-name" required>
             </div>
           </div>
           <div class="row g-3 mb-3">
             <div class="col-auto mb-4">
               <label for="email" class="form-label">Email Address:</label>
               <input type="email" class="form-control" id="email" aria-describedby="email" required>
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <div id="emailHelp" class="form-text">We'll only use your email address to contact you.</div>
             </div>
             <div class="col-auto mb-3">
               <label for="tel" class="form-label">Contact Telephone:</label>
               <input type="tel" class="form-control" id="tel">
             </div>
           </div>
-          <div class="mb-3">
-            <label for="date">Event Date:</label>
-            <input type="date" id="date" name="event-date" value="2022-01-01" min="2022-01-24" max="2035-01-01">
-          </div>
-          <div class="row g-3">
-            <div class="col-auto mb-3">
-              <label for="venue-name" class="form-label">Venue Name / Nearest Town:</label>
-              <input type="text" class="form-control" id="venue-name" aria-describedby="venue-name">
-            </div>
-            <div class="col-auto mb-3">
-              <label for="venue-postcode" class="form-label">Venue Postcode:</label>
-              <input type="text" class="form-control" id="venue-postcode" aria-describedby="last-name">
-            </div>
-          </div>
-          <h6 class="mb-3 mb-lg-4">Please choose the package that you are most interested in for your event. However, we
-            will automatically quote
-            you for all three so you can see your options.</h6>
-          <div class="row g-3 mb-4">
-            <div class="col-auto form-check">
-              <input class="form-check-input" type="radio" name="ceremonyRadio" id="ceremonyRadio">
-              <label class="form-check-label" for="ceremonyRadio">
-                Wedding Ceremony Only
-              </label>
-            </div>
-            <div class="col-auto form-check">
-              <input class="form-check-input" type="radio" name="ceremony-receptionRadio" id="ceremony-receptionRadio">
-              <label class="form-check-label" for="ceremony-receptionRadio">
-                Wedding Ceremony and Cocktail Hour/Reception
-              </label>
-            </div>
-            <div class="col-auto form-check">
-              <input class="form-check-input" type="radio" name="ceremony-reception-breakfastRadio"
-                id="ceremony-reception-breakfastRadio">
-              <label class="form-check-label" for="ceremony-reception-breakfastRadio">
-                Wedding Ceremony, Cocktail Hour/Reception and Wedding Breakfast
-              </label>
-            </div>
-            <div class="col-auto form-check">
-              <input class="form-check-input" type="radio" name="ceremony-reception-breakfastRadio"
-                id="other-eventRadio">
-              <label class="form-check-label" for="other-eventRadio">
-                Other Event
-              </label>
-            </div>
-          </div>
+          <h6 class="mb-3 mb-lg-4">Please let us know the details of your day in the text field below. We will send you
+            a quote for our three most popular options : Wedding Ceremony Only, Wedding Ceremony and Reception, and
+            Ceremony, Reception, and Wedding Breakfast.</h6>
           <div class="form-floating mb-4">
             <textarea class="form-control" placeholder="" id="floatingTextarea"></textarea>
             <label for="floatingTextarea">Anything else? Let us know here.</label>
