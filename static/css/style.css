@@ -82,16 +82,24 @@ footer .nav-item i {
     }
 }
 
-.center-form h6 {
-    font-style: italic;
-    line-height: 150%;
+.center-form {
+    border: 1px solid #ced4da;
 }
 
-/*not working*/ 
 #form-message {
-    font-size: 5 rem;
-
+    font-size: 1.2em;
+    padding: 1.2em;
 }
+
+.center-form h6, form {
+    font-style: italic;
+    line-height: 170%;  
+}
+
+label {
+    letter-spacing: .05em;
+}
+
 /*------Form Submission Page*/
 
 @media only screen and (min-width: 768px) {

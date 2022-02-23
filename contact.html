@@ -45,25 +45,28 @@
     </nav>
   </header>
   <!--Banner-->
-  <section>
-    <h1 class="banner" style="padding-top: 50px;">
+  <section class="banner mb-sm-5" style="padding-top: 50px;">
+    <h1 style="margin-bottom: 0;">
       <img class="img-fluid d-block d-sm-none" src="static/images/cello-small.jpg" alt="cello">
       <img class="img-fluid d-none d-sm-block d-xxl-none" src="static/images/cello-big.jpg" alt="cello">
       <img class="img-fluid d-none d-xxl-block" src="static/images/cello-big-cropped-2.jpg" alt="cello">
     </h1>
   </section>
   <!--Form-->
-  <section class="center-form container-fluid mt-3 mb-sm-5">
+  <section class="center-form container-fluid mb-5 pb-5">
+    <div class="row">
+      <h6 id="form-message" class="col-12 mb-4 text-white bg-dark text-center container-fluid">Please complete the following
+        form so that we are able to reach you. We aim to be in touch with
+        a quote as soon
+        as possible.
+        If you have not heard from us with in one day, please check your spam folder or give us a call on
+        +447792091467.<br>
+        <br>
+        Quotes are always free of charge and obligation.
+      </h6>
+    </div>
     <div class="row">
       <div class="col-12">
-        <h6 id="form-message" class="mb-3">Please complete the following form so that we are able to reach you. We aim to be in touch with
-          a quote as soon
-          as possible.
-          If you have not heard from us with in one day, please check your spam folder or give us a call on
-          +447792091467.<br>
-          <br>
-          Quotes are always free of charge and obligation.
-        </h6>
         <form action="form-submission.html">
           <div class="row g-3">
             <div class="col-auto mb-3">
@@ -86,8 +89,8 @@
             a quote for our three most popular options : Wedding Ceremony Only, Wedding Ceremony and Reception, and
             Ceremony, Reception, and Wedding Breakfast.</h6>
           <div class="form-floating mb-4">
-            <textarea class="form-control" placeholder="" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Anything else? Let us know here.</label>
+            <textarea class="form-control" placeholder="" id="floatingTextarea" rows="20"></textarea>
+            <label for="floatingTextarea">Gives us the deets!</label>
           </div>
           <div class="col d-flex justify-content-center">
             <button type="submit" class="btn btn-success">Submit</button>
