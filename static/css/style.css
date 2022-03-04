@@ -112,3 +112,9 @@ label {
         padding: 0;
     }
 }
+
+/*-----Repertoire Page*/
+
+.collapse li {
+    list-style-type: none;
+}
