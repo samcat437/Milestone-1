@@ -13,9 +13,9 @@ nav {
 }
 
 @media only screen and (max-width: 450px) {
-    nav {
+    .navbar-brand {
+        font-size: 1.15rem;
         letter-spacing: normal;
-        text-transform: none;
     }
 
 }
