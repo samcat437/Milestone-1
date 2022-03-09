@@ -86,12 +86,7 @@ footer .nav-item i {
     border: 1px solid #ced4da;
 }
 
-#form-message {
-    font-size: 1.2em;
-    padding: 1.2em;
-}
-
-.center-form h6, form {
+.center-form h5, .center-form h6, form {
     font-style: italic;
     line-height: 170%;  
 }
@@ -117,4 +112,20 @@ label {
 
 .collapse li {
     list-style-type: none;
+}
+
+.toggleContainer {
+    border-bottom: thin solid black;
+}
+
+.repToggle {
+    text-decoration: none;
+    color:rgb(6, 85, 6);
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.repToggle a:visited,  a:hover, a:active {
+    text-decoration: none;
+    color: rgb(202, 34, 90); 
 }
