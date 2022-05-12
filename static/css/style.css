@@ -4,12 +4,17 @@
 
 body {
     font-family: Open-Sans, sans-serif;
-    
+    background-color: #E6F3E3;
+
 }
 
 nav {
     text-transform: uppercase;
     letter-spacing: .2em;
+}
+
+.navbar-light {
+    background-color: #E6F3E3!important;
 }
 
 @media only screen and (max-width: 450px) {
@@ -49,6 +54,11 @@ footer .nav-item i {
     .logo {
         display: none;
     }
+}
+
+.small-bridge {
+    height: 100px;
+    width: 150px;
 }
 
 /*------Home Page and Weddings Page */
