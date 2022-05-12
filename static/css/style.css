@@ -4,8 +4,8 @@
 
 body {
     font-family: Open-Sans, sans-serif;
-    background-color: #E6F3E3;
-
+    /* background-color: #E6F3E3; */
+    
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
 }
 
 .navbar-light {
-    background-color: #E6F3E3!important;
+    
 }
 
 @media only screen and (max-width: 450px) {

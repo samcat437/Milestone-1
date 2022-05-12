@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/style.css" type="text/css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>The Avon String Quartet</title>
 </head>
 
@@ -18,7 +23,8 @@
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container-fluid">
                 <div class="justify-content-start">
-                    <i class="fas fa-water d-sm-inline logo pe-4"></i>
+                    <!-- https://pixabay.com/vectors/bridge-nature-tree-lake-handdrawn-2497136/ -->
+                    <img class="small-bridge mx-3" src="/static/images/small-bridge.png" alt="small-bridge">
                     <a class="navbar-brand" href="index.html">Avon String Quartet</a>
                 </div>
                 <div class="justify-content-sm-end">
@@ -49,7 +55,7 @@
     </header>
     <!--Banner-->
     <section>
-        <h1 class="banner" style="padding-top: 50px; margin-bottom: 0;">
+        <h1 class="banner" style="margin-top: 100px; margin-bottom: 0;">
             <img class="img-fluid d-block d-sm-none" src="static/images/sheet-music rose smallest.jpg" alt="quartet">
             <img class="img-fluid d-none d-sm-block d-xxl-none" src="static/images/sheet-music-rose-small.jpg"
                 alt="quartet">
@@ -76,8 +82,8 @@
     <section class="container-fluid mt-2 pb-lg-3 mb-sm-0">
         <div class="row">
             <div class="toggleContainer col-12 d-flex justify-content-center">
-                <a class="repToggle mb-4" data-bs-toggle="collapse" href="#collapsePop" role="button" aria-expanded="false"
-                    aria-controls="collapsepop">
+                <a class="repToggle mb-4" data-bs-toggle="collapse" href="#collapsePop" role="button"
+                    aria-expanded="false" aria-controls="collapsepop">
                     Pop and Rock Music
                 </a>
             </div>
@@ -373,8 +379,8 @@
                 </div>
             </div>
             <div class="toggleContainer col-12 d-flex justify-content-center">
-                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseFilm" role="button" aria-expanded="false"
-                    aria-controls="collapseFilm">
+                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseFilm" role="button"
+                    aria-expanded="false" aria-controls="collapseFilm">
                     Film, Musicals, and Video Game Music
                 </a>
             </div>
@@ -465,8 +471,8 @@
                 </div>
             </div>
             <div class="toggleContainer col-12 d-flex justify-content-center">
-                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseClassical" role="button" aria-expanded="false"
-                    aria-controls="collapseClassical">
+                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseClassical" role="button"
+                    aria-expanded="false" aria-controls="collapseClassical">
                     Classical and Opera
                 </a>
             </div>
@@ -573,8 +579,8 @@
                 </div>
             </div>
             <div class="toggleContainer col-12 d-flex justify-content-center">
-                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseJazz" role="button" aria-expanded="false"
-                    aria-controls="collapseJazz">
+                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseJazz" role="button"
+                    aria-expanded="false" aria-controls="collapseJazz">
                     Jazz
                 </a>
             </div>
@@ -602,8 +608,8 @@
                 </div>
             </div>
             <div class="toggleContainer col-12 d-flex justify-content-center">
-                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseFolk" role="button" aria-expanded="false"
-                    aria-controls="collapseFolk">
+                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseFolk" role="button"
+                    aria-expanded="false" aria-controls="collapseFolk">
                     Folk and Celtic Music
                 </a>
             </div>
@@ -668,8 +674,8 @@
                 </div>
             </div>
             <div class="toggleContainer col-12 d-flex justify-content-center">
-                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseTango" role="button" aria-expanded="false"
-                    aria-controls="collapseTango">
+                <a class="repToggle pt-3 mb-4" data-bs-toggle="collapse" href="#collapseTango" role="button"
+                    aria-expanded="false" aria-controls="collapseTango">
                     Tango
                 </a>
             </div>
@@ -692,56 +698,68 @@
     <section>
         <div id="carouselExampleControls" class="container-fluid carousel slide" data-bs-ride="carousel">
             <div class="row carousel-inner">
-              <div class="col-6 mx-auto video carousel-item active">
-                <iframe src="https://www.youtube.com/embed/8haRGBA8c1o?autoplay=1&mute=1" class="d-block" alt="Pocahontas-Theme">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/w7d3EDCbiLo?autoplay=1&mute=1" class="d-block" alt="Mr.-Blue-Sky">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/BBvYeD8sJ1w?autoplay=1&mute=1" class="d-block" alt="Thank-U-Next">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/vG1yrnbidWY?autoplay=1&mute=1" class="d-block" alt="In-My-Blood">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/YkRrbGVsJnw?autoplay=1&mute=1" class="d-block" alt="Pachelbel">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/M4R7EoLKZ3I?autoplay=1&mute=1" class="d-block" alt="Brandenburg">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/ocS5tF6FL74?autoplay=1&mute=1" class="d-block" alt="Hobbits">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/ElOlk-irzjE?autoplay=1&mute=1" class="d-block" alt="Beatles">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/nDAvKHFWtBw?autoplay=1&mute=1" class="d-block" alt="Wildest-Dreams">
-                </iframe>
-              </div>
-              <div class="col-6 mx-auto video carousel-item">
-                <iframe src="https://www.youtube.com/embed/_fPaZSk9hXc?autoplay=1&mute=1" class="d-block" alt="Brave-Heart">
-                </iframe>
-              </div>
+                <div class="col-6 mx-auto video carousel-item active">
+                    <iframe src="https://www.youtube.com/embed/8haRGBA8c1o?autoplay=1&mute=1" class="d-block"
+                        alt="Pocahontas-Theme">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/w7d3EDCbiLo?autoplay=1&mute=1" class="d-block"
+                        alt="Mr.-Blue-Sky">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/BBvYeD8sJ1w?autoplay=1&mute=1" class="d-block"
+                        alt="Thank-U-Next">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/vG1yrnbidWY?autoplay=1&mute=1" class="d-block"
+                        alt="In-My-Blood">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/YkRrbGVsJnw?autoplay=1&mute=1" class="d-block"
+                        alt="Pachelbel">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/M4R7EoLKZ3I?autoplay=1&mute=1" class="d-block"
+                        alt="Brandenburg">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/ocS5tF6FL74?autoplay=1&mute=1" class="d-block"
+                        alt="Hobbits">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/ElOlk-irzjE?autoplay=1&mute=1" class="d-block"
+                        alt="Beatles">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/nDAvKHFWtBw?autoplay=1&mute=1" class="d-block"
+                        alt="Wildest-Dreams">
+                    </iframe>
+                </div>
+                <div class="col-6 mx-auto video carousel-item">
+                    <iframe src="https://www.youtube.com/embed/_fPaZSk9hXc?autoplay=1&mute=1" class="d-block"
+                        alt="Brave-Heart">
+                    </iframe>
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button> 
-          </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
     <!--Mobile footer -->
     <footer class="mt-5">
